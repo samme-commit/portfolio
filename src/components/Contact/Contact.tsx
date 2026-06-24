@@ -1,5 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowRight,
+  faArrowUpRightFromSquare,
+  faEnvelope,
+  faLocationDot,
+  faCode,
+} from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { SectionHeader } from "../SectionHeader/SectionHeader";
 import "./Contact.css";
@@ -9,34 +15,66 @@ export function Contact() {
     <section className="section-block contact-section" id="contact">
       <SectionHeader
         eyebrow="Contact"
-        title="Want to connect?"
-        description="You can find my projects on GitHub or contact me by email."
+        title="Interested in working together?"
+        description="I'm currently building frontend projects and looking for opportunities to keep improving, collaborate and create polished web experiences."
       />
 
       <div className="contact-card">
-        <div>
-          <h3>Let's build something clean.</h3>
+        <div className="contact-content">
+          <div className="contact-status">
+            <span className="contact-status-dot" />
+            Available for frontend projects and junior opportunities
+          </div>
+
+          <h3>Let’s build something clean, modern and useful.</h3>
+
           <p>
-            I'm currently focused on improving my React, TypeScript and frontend
-            UI skills through portfolio projects.
+            Whether it is a small business website, a landing page, a UI concept
+            or a frontend project, I enjoy turning ideas into polished web
+            experiences.
           </p>
+
+          <div className="contact-meta">
+            <span>
+              <FontAwesomeIcon icon={faLocationDot} />
+              Sweden
+            </span>
+
+            <span>
+              <FontAwesomeIcon icon={faCode} />
+              React · TypeScript · UI polish
+            </span>
+          </div>
         </div>
 
-        <div className="contact-actions">
-          <a href="mailto:sammeservice@gmail.com">
-            <FontAwesomeIcon icon={faEnvelope} />
-            Email me
-          </a>
+        <div className="contact-panel">
+          <div className="contact-panel-header">
+            <span>Start here</span>
+            <strong>Get in touch</strong>
+          </div>
 
-          <a
-            href="https://github.com/samme-commit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-            GitHub
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-          </a>
+          <div className="contact-actions">
+            <a className="contact-primary" href="mailto:samueloxenby@gmail.com">
+              <FontAwesomeIcon icon={faEnvelope} />
+              Email me
+              <FontAwesomeIcon icon={faArrowRight} />
+            </a>
+
+            <a
+              href="https://github.com/samme-commit"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+              View GitHub
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            </a>
+
+            <a href="#projects">
+              View projects
+              <FontAwesomeIcon icon={faArrowRight} />
+            </a>
+          </div>
         </div>
       </div>
     </section>
