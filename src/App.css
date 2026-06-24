@@ -1,0 +1,26 @@
+.portfolio-shell {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.page-content {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 92px 0 72px;
+}
+
+.section-block {
+  padding: 74px 0;
+}
+
+@media (max-width: 720px) {
+  .page-content {
+    width: min(100% - 24px, 1120px);
+    padding-top: 76px;
+  }
+
+  .section-block {
+    padding: 54px 0;
+  }
+}
