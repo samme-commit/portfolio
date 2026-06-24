@@ -1,8 +1,10 @@
 .hero-section {
   display: grid;
   justify-items: center;
-  padding: 96px 0 86px;
+  min-height: calc(100vh - 120px);
+  padding: 96px 0 110px;
   text-align: center;
+  align-content: center;
 }
 
 .hero-badge {
@@ -112,8 +114,10 @@
   .hero-section {
     align-items: start;
     justify-items: start;
-    padding: 76px 0 54px;
+    min-height: auto;
+    padding: 82px 0 72px;
     text-align: left;
+    align-content: start;
   }
 
   .hero-actions,

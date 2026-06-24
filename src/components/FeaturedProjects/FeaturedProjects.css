@@ -1,8 +1,18 @@
-.projects-grid {
-  display: grid;
-  gap: 18px;
+.featured-projects {
+  padding-top: 88px;
 }
 
-.featured-projects {
-  padding-top: 96px;
+.projects-grid {
+  display: grid;
+  gap: 22px;
+}
+
+@media (max-width: 720px) {
+  .featured-projects {
+    padding-top: 64px;
+  }
+
+  .projects-grid {
+    gap: 18px;
+  }
 }

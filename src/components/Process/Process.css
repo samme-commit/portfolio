@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 16px;
+  margin-top: 34px;
 }
 
 .process-card {
