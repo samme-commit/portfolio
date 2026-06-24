@@ -25,3 +25,31 @@
   font-size: 1rem;
   line-height: 1.7;
 }
+
+@media (max-width: 720px) {
+  .section-header {
+    margin-bottom: 22px;
+  }
+
+  .section-header span {
+    font-size: 0.75rem;
+  }
+
+  .section-header h2 {
+    font-size: clamp(2.2rem, 12vw, 3.25rem);
+    line-height: 0.95;
+    letter-spacing: -0.07em;
+  }
+
+  .section-header p {
+    margin-top: 14px;
+    font-size: 0.94rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 390px) {
+  .section-header h2 {
+    font-size: clamp(2rem, 11vw, 2.75rem);
+  }
+}

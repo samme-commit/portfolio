@@ -51,3 +51,8 @@ a {
 button {
   font: inherit;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}

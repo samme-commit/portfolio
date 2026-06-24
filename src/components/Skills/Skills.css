@@ -133,8 +133,36 @@
   }
 }
 
-@media (max-width: 720px) {
-  .skill-tooltip {
-    display: none;
+@media (max-width: 860px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 26px;
+  }
+
+  .skill-card {
+    min-height: auto;
+    padding: 18px;
+    border-radius: 22px;
+  }
+
+  .skill-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 14px;
+  }
+
+  .skill-list {
+    gap: 8px;
+  }
+
+  .skill-pill {
+    min-height: 36px;
+    padding: 0 11px;
+    font-size: 0.78rem;
+  }
+
+  .skill-pill img {
+    width: 16px;
+    height: 16px;
   }
 }

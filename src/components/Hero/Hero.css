@@ -115,14 +115,39 @@
     align-items: start;
     justify-items: start;
     min-height: auto;
-    padding: 82px 0 72px;
+    padding: 34px 0 46px;
     text-align: left;
     align-content: start;
+  }
+
+  .hero-section h1 {
+    font-size: clamp(2.45rem, 13vw, 3.75rem);
+    line-height: 0.95;
+    letter-spacing: -0.075em;
+  }
+
+  .hero-section p {
+    max-width: 100%;
+    margin-top: 18px;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .hero-badge {
+    margin-bottom: 16px;
+    font-size: 0.76rem;
   }
 
   .hero-actions,
   .hero-tech-row {
     justify-content: flex-start;
+  }
+
+  .primary-button,
+  .secondary-button {
+    min-height: 42px;
+    padding: 0 14px;
+    font-size: 0.82rem;
   }
 }
 

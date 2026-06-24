@@ -78,7 +78,41 @@
   }
 
   .site-header {
-    top: 12px;
-    width: min(100% - 24px, 1120px);
+    top: 10px;
+    width: min(100% - 20px, 1120px);
+    min-height: 52px;
+    padding: 0 8px 0 10px;
+  }
+
+  .header-logo {
+    gap: 8px;
+    font-size: 0.82rem;
+  }
+
+  .header-logo span {
+    width: 32px;
+    height: 32px;
+    font-size: 0.72rem;
+  }
+
+  .header-github {
+    min-height: 36px;
+    padding: 0 12px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-logo {
+    font-size: 0;
+  }
+
+  .header-logo span {
+    font-size: 0.72rem;
+  }
+
+  .header-github {
+    gap: 6px;
+    padding: 0 10px;
   }
 }
