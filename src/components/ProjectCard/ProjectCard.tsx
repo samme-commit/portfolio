@@ -11,29 +11,18 @@ export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <article className={`project-card accent-${project.accent}`}>
       <div className="project-preview">
-        <div className="preview-window">
-          <div className="preview-topbar">
-            <span />
-            <span />
-            <span />
-          </div>
-
-          <div className="preview-content">
-            <div className="preview-pill">{project.eyebrow}</div>
-            <div className="preview-title">{project.title}</div>
-            <div className="preview-lines">
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-        </div>
+        <img src={project.image} alt={`${project.title} screenshot`} />
       </div>
 
       <div className="project-info">
         <span className="project-eyebrow">{project.eyebrow}</span>
         <h3>{project.title}</h3>
         <p>{project.description}</p>
+
+        <div className="project-proof">
+          <span>What it shows</span>
+          <p>{project.proof}</p>
+        </div>
 
         <div className="project-stack">
           {project.stack.map((tech) => (
