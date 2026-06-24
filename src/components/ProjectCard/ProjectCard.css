@@ -92,6 +92,12 @@
     linear-gradient(135deg, rgba(236, 72, 153, 0.2), rgba(139, 92, 246, 0.14));
 }
 
+.accent-gold .project-preview {
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.18), transparent 14rem),
+    linear-gradient(135deg, rgba(176, 138, 87, 0.28), rgba(216, 167, 160, 0.16));
+}
+
 .project-info {
   padding: 10px 10px 10px 0;
 }

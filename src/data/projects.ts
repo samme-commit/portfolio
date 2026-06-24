@@ -7,10 +7,23 @@ export type Project = {
   repoUrl: string;
   liveUrl: string;
   image: string;
-  accent: "purple" | "blue" | "cyan" | "pink";
+  accent: "purple" | "blue" | "cyan" | "pink" | "gold";
 };
 
 export const projects: Project[] = [
+  {
+    title: "Studio Forma",
+    eyebrow: "Salon Website Concept",
+    description:
+      "A premium fictional hair salon website concept with services, treatments, locations, stylist profiles, gallery and a fake booking flow.",
+    proof:
+      "Shows small business website design, image-heavy layouts, reusable data-driven sections, responsive UI and modal state handling.",
+    stack: ["React", "TypeScript", "Vite", "CSS", "Font Awesome"],
+    repoUrl: "https://github.com/samme-commit/studio-forma",
+    liveUrl: "https://sammecommit-studio-forma.vercel.app/",
+    image: "/projects/studio-forma.png",
+    accent: "gold",
+  },
   {
     title: "PulsePay Checkout",
     eyebrow: "Fintech UI Concept",
