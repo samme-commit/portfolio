@@ -54,7 +54,7 @@ export function Contact() {
           </div>
 
           <div className="contact-actions">
-            <a className="contact-primary" href="mailto:samueloxenby@gmail.com">
+            <a className="contact-primary" href="mailto:sammeservice@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} />
               Email me
               <FontAwesomeIcon icon={faArrowRight} />
