@@ -7,6 +7,7 @@ import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 import { Services } from "./components/Services/Services";
 import { Skills } from "./components/Skills/Skills";
+import { Process } from "./components/Process/Process";
 import "./App.css";
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Hero />
         <Services />
         <FeaturedProjects />
+        <Process />
         <About />
         <Skills />
         <Contact />

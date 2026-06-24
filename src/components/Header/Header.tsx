@@ -12,6 +12,7 @@ export function Header() {
 
       <nav className="header-nav" aria-label="Main navigation">
         <a href="#projects">Projects</a>
+        <a href="#process">Process</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
