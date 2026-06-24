@@ -2,3 +2,7 @@
   display: grid;
   gap: 18px;
 }
+
+.featured-projects {
+  padding-top: 96px;
+}
