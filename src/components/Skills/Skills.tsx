@@ -18,7 +18,19 @@ export function Skills() {
 
             <div className="skill-list">
               {group.skills.map((skill) => (
-                <span key={skill}>{skill}</span>
+                <div className="skill-pill" key={skill.name} tabIndex={0}>
+                  {skill.icon && <img src={skill.icon} alt="" aria-hidden="true" />}
+                  <span>{skill.name}</span>
+
+                  <div className="skill-tooltip">
+                    <div className="skill-tooltip-header">
+                      {skill.icon && <img src={skill.icon} alt="" aria-hidden="true" />}
+                      <strong>{skill.name}</strong>
+                    </div>
+
+                    <p>{skill.description}</p>
+                  </div>
+                </div>
               ))}
             </div>
           </article>

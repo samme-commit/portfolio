@@ -23,7 +23,7 @@ export function Contact() {
         </div>
 
         <div className="contact-actions">
-          <a href="mailto:samueloxenby@gmail.com">
+          <a href="mailto:sammeservice@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} />
             Email me
           </a>
