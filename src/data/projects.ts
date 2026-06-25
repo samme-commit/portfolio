@@ -12,6 +12,29 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Job Tracker",
+    eyebrow: "Full-Stack SaaS App",
+    description:
+      "A full-stack job application tracker with authentication, application CRUD, dashboard statistics, settings, notifications and public user profiles.",
+    proof:
+      "Shows full-stack app structure, protected routes, session-based auth, JSON storage, profile uploads, public profiles and a live demo account with preloaded example data.",
+    stack: [
+      "Node.js",
+      "Express",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Sessions",
+      "Bcrypt",
+      "Multer",
+      "Zod"
+    ],
+    repoUrl: "https://github.com/samme-commit/job-tracker",
+    liveUrl: "https://job-tracker-cxxv.onrender.com/",
+    image: "/projects/job-tracker.png",
+    accent: "blue",
+  },
+  {
     title: "Studio Forma",
     eyebrow: "Salon Website Concept",
     description:

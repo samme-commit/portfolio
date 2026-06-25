@@ -9,7 +9,7 @@ export function FeaturedProjects() {
       <SectionHeader
         eyebrow="Selected work"
         title="Featured Projects"
-        description="A collection of frontend projects focused on clean UI, animation, responsive layouts and real product feeling."
+        description="A collection of frontend and full-stack projects focused on polished UI, responsive layouts, real product flows and practical app functionality."
       />
 
       <div className="projects-grid">
