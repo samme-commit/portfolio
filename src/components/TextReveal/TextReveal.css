@@ -9,6 +9,7 @@
 .text-reveal-word {
   display: inline-block;
   opacity: 0;
+  color: var(--text);
   transform: translateY(26px);
   animation: reveal-word 760ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
@@ -16,7 +17,9 @@
 .text-reveal-word.is-highlighted {
   background: linear-gradient(135deg, var(--purple), var(--cyan), var(--pink));
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes reveal-word {
